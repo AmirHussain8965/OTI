@@ -60,12 +60,8 @@ body{
     font-weight: 700;
     font-size: 64px;
     color: #0A1832;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
 }
-.hero_text1 h1 span{
+/* .hero_text1 h1 span{
     display: inline-block;
     background-image: url(../../assets/img/txt_bg.svg);
     height: 100%;
@@ -75,7 +71,7 @@ body{
     background-size: cover;
     min-width: max-content;
     color: #FFFFFF;
-}
+} */
 .hero_text1 p{
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
@@ -184,7 +180,7 @@ body{
 .home_sec1_card_body p{
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     color: #0A1832;
     margin-bottom: 0;
 }
@@ -324,7 +320,7 @@ body{
     border-radius: 8px;
 }
 .home_sec3_big_cards h2{
-    font-weight: 700;
+    font-weight: 500;
     font-size: 24px;
     position: absolute;
     bottom: 10px;
@@ -369,7 +365,7 @@ body{
     border-radius: 8px;
 }
 .home_sec3_small_cards h2{
-    font-weight: 700;
+    font-weight: 500;
     font-size: 24px;
     position: absolute;
     bottom: 10px;
@@ -464,10 +460,16 @@ body{
     right: 0;
     bottom: 0;
 }
-.home_sec6_map iframe{
+/* .home_sec6_map iframe{
     height: 600px;
     width: 100%;
     border-radius: 8px;
+} */
+.home_sec6_map img{
+    height: 600px;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
 }
 .home_sec6_right_main{
     width: 100%;
@@ -790,8 +792,8 @@ body{
         font-style: Italic;
         font-size: 17px;
     }
-    .home_sec6_map iframe {
-        height: 350px;
+    .home_sec6_map img {
+        height: 550px;
         width: 100%;
         border-radius: 8px;
     }
